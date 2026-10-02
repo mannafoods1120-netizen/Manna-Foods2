@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Chef Hat Outline (Transparent Interior, Charcoal Brush Contour) -->
+  <g id="chef-hat">
+    <!-- Base inner cuff stroke -->
+    <path 
+      d="M 215 375 C 245 382, 280 382, 318 375" 
+      fill="none" 
+      stroke="#18181B" 
+      stroke-width="16" 
+      stroke-linecap="round" 
+    />
+
+    <!-- Main Hat Silhouette Stroke -->
+    <path 
+      d="M 180 378 
+         C 174 345, 165 315, 160 300 
+         C 120 292, 108 238, 126 198 
+         C 142 158, 188 165, 204 190 
+         C 216 142, 244 118, 266 118 
+         C 292 118, 314 142, 324 190 
+         C 342 165, 386 158, 402 198 
+         C 418 238, 408 292, 368 300 
+         C 363 315, 354 345, 348 378 
+         C 305 400, 222 400, 180 378 Z" 
+      fill="none" 
+      stroke="#18181B" 
+      stroke-width="22" 
+      stroke-linecap="round" 
+      stroke-linejoin="round" 
+    />
+  </g>
+
+  <!-- Rising Flame (Emerging out of top of chef hat) -->
+  <g id="center-flame">
+    <!-- Outer Yellow Flame Backing & Contour -->
+    <path 
+      d="M 256 370 
+         C 222 310, 218 240, 224 200 
+         C 230 160, 248 125, 245 78 
+         C 243 60, 238 48, 240 44 
+         C 244 44, 256 65, 260 90 
+         C 268 135, 252 170, 266 220 
+         C 278 260, 302 220, 300 185 
+         C 298 162, 288 138, 290 115 
+         C 292 126, 302 155, 304 185 
+         C 308 232, 282 302, 256 370 Z" 
+      fill="#FFD000" 
+      stroke="#FFD000" 
+      stroke-width="4" 
+      stroke-linejoin="round" 
+    />
+
+    <!-- Main Vibrant Red Flame Core (Left Petal) -->
+    <path 
+      d="M 256 365 
+         C 228 308, 224 242, 229 205 
+         C 234 166, 250 134, 248 88 
+         C 246 72, 242 58, 243 52 
+         C 245 58, 252 80, 255 104 
+         C 260 145, 248 185, 256 240 
+         C 260 270, 262 315, 256 365 Z" 
+      fill="#E51A1A" 
+    />
+
+    <!-- Main Vibrant Red Flame Core (Right Petal) -->
+    <path 
+      d="M 256 365 
+         C 262 315, 260 270, 256 240 
+         C 254 222, 252 205, 255 180 
+         C 262 215, 274 245, 286 245 
+         C 294 245, 298 222, 297 198 
+         C 295 180, 288 162, 288 145 
+         C 292 162, 300 185, 301 210 
+         C 304 252, 280 312, 256 365 Z" 
+      fill="#E51A1A" 
+    />
+
+    <!-- Inner Central Yellow Accent Tongue -->
+    <path 
+      d="M 256 362 
+         C 260 310, 256 262, 252 222 
+         C 248 180, 255 142, 256 104 
+         C 257 80, 252 62, 248 50 
+         C 252 60, 262 86, 262 110 
+         C 262 145, 254 180, 258 228 
+         C 262 270, 264 315, 256 362 Z" 
+      fill="#FFD700" 
+    />
+  </g>
+</svg>

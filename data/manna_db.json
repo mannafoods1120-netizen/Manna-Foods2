@@ -1,0 +1,1137 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-01",
+      "name": "Manna Foods Admin",
+      "email": "mannafoods1120@gmail.com",
+      "phone": "+919890786024",
+      "role": "admin",
+      "address": "A3 Saket Building, Kondhwa Katraj Road, Kondhwa Bk",
+      "area": "Kondhwa Bk",
+      "city": "Pune",
+      "pincode": "411048",
+      "createdAt": "2026-01-01T08:00:00.000Z",
+      "status": "active",
+      "passwordHash": "$2b$10$yr2CKGAm5vbZThqrSBVFRuaDbgMQNYLQ2g1bwkfOe0rRZtyOGYEFS"
+    },
+    {
+      "id": "usr-cust-01",
+      "name": "Aditya Deshmukh",
+      "email": "aditya.deshmukh@gmail.com",
+      "phone": "+919890123456",
+      "role": "customer",
+      "address": "Flat 402, Rohan Tarang, Wakad",
+      "area": "Wakad",
+      "city": "Pune",
+      "pincode": "411057",
+      "createdAt": "2026-02-10T11:20:00.000Z",
+      "status": "active",
+      "passwordHash": "$2b$10$aJPxKSSGHOoA1xZoDRzrc.IVjvXjGcTc5vmT7ygmcSffPrV7BuXEG"
+    },
+    {
+      "id": "usr-cust-02",
+      "name": "Pooja Kulkarni",
+      "email": "pooja.kulkarni@techpune.com",
+      "phone": "+919765432109",
+      "role": "customer",
+      "address": "Tower 5, Blue Ridge, Hinjawadi Phase 1",
+      "area": "Hinjawadi Phase 1 & 2",
+      "city": "Pune",
+      "pincode": "411057",
+      "createdAt": "2026-02-15T09:40:00.000Z",
+      "status": "active",
+      "passwordHash": "$2b$10$aJPxKSSGHOoA1xZoDRzrc.IVjvXjGcTc5vmT7ygmcSffPrV7BuXEG"
+    },
+    {
+      "id": "usr-cust-03",
+      "name": "Rohan Shinde",
+      "email": "rohan.shinde@gmail.com",
+      "phone": "+919822334455",
+      "role": "customer",
+      "address": "B2 Ganga Florentina, NIBM Post Road",
+      "area": "NIBM",
+      "city": "Pune",
+      "pincode": "411048",
+      "createdAt": "2026-08-10T10:00:00.000Z",
+      "status": "active",
+      "passwordHash": "$2b$10$aJPxKSSGHOoA1xZoDRzrc.IVjvXjGcTc5vmT7ygmcSffPrV7BuXEG"
+    },
+    {
+      "id": "usr-cust-04",
+      "name": "Sneha Patil",
+      "email": "sneha.patil@outlook.com",
+      "phone": "+919833445566",
+      "role": "customer",
+      "address": "Rowhouse 12, Nyati Estate, Undri",
+      "area": "Undri",
+      "city": "Pune",
+      "pincode": "411060",
+      "createdAt": "2026-09-12T14:20:00.000Z",
+      "status": "active",
+      "passwordHash": "$2b$10$aJPxKSSGHOoA1xZoDRzrc.IVjvXjGcTc5vmT7ygmcSffPrV7BuXEG"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-veg",
+      "name": "Veg",
+      "slug": "veg",
+      "description": "Fresh, nutritious homestyle Maharashtrian and North Indian daily vegetarian fare"
+    },
+    {
+      "id": "cat-nonveg",
+      "name": "Non-Veg",
+      "slug": "non-veg",
+      "description": "Tender chicken and mutton curries prepared with freshly ground aromatic spices",
+      "subCategories": [
+        "Chicken",
+        "Mutton"
+      ]
+    }
+  ],
+  "menuItems": [
+    {
+      "id": "meal-001",
+      "name": "Royal Shahi Paneer Thali",
+      "category": "Paneer Meals",
+      "mealType": "veg",
+      "description": "Fresh malai paneer simmered in rich cashew and tomato gravy, 3 whole wheat butter phulkas, jeera rice, dal tadka, salad, and soft gulab jamun.",
+      "price": 185,
+      "isAvailable": true,
+      "isFeatured": true,
+      "ingredients": [
+        "Fresh Paneer",
+        "Cashew Gravy",
+        "Whole Wheat Atta",
+        "Basmati Rice",
+        "Yellow Toor Dal",
+        "Desi Ghee"
+      ],
+      "dietaryTags": [
+        "High Protein",
+        "Pure Ghee"
+      ],
+      "calories": 620
+    },
+    {
+      "id": "meal-002",
+      "name": "Kolhapuri Chicken Masala Thali",
+      "category": "Chicken Meals",
+      "mealType": "non-veg",
+      "description": "Aromatic Pune-Kolhapuri tender chicken curry cooked in dry-roasted coconut spice paste, 3 soft chapatis, steamed basmati rice, rassa gravy, and onion lemon salad.",
+      "price": 210,
+      "isAvailable": true,
+      "isFeatured": true,
+      "ingredients": [
+        "Fresh Farm Chicken",
+        "Kolhapuri Kanda-Lasan Masala",
+        "Whole Wheat Rotis",
+        "Steamed Rice"
+      ],
+      "dietaryTags": [
+        "High Protein",
+        "Homestyle Spices"
+      ],
+      "calories": 680
+    },
+    {
+      "id": "meal-003",
+      "name": "Homely Ghar Ki Thali (Everyday Veg)",
+      "category": "Veg Meals",
+      "mealType": "veg",
+      "description": "Light, wholesome daily tiffin featuring seasonal sabzi (Bhindi / Aloo Gobi), comforting yellow dal fry, 3 warm whole wheat chapatis, steamed rice, and fresh kachumber.",
+      "price": 140,
+      "isAvailable": true,
+      "isFeatured": true,
+      "ingredients": [
+        "Seasonal Green Veg",
+        "Toor Dal",
+        "Chapatis with Ghee",
+        "Basmati Rice"
+      ],
+      "dietaryTags": [
+        "Low Oil",
+        "Digestive Friendly"
+      ],
+      "calories": 490
+    },
+    {
+      "id": "meal-004",
+      "name": "Special Anda Curry Tiffin",
+      "category": "Egg Meals",
+      "mealType": "non-veg",
+      "description": "2 farm-fresh boiled eggs cooked in rich caramelized onion-tomato gravy, 3 phulkas, jeera rice, salad and roasted papad.",
+      "price": 160,
+      "isAvailable": true,
+      "isFeatured": false,
+      "ingredients": [
+        "2 Eggs",
+        "Onion Tomato Gravy",
+        "Whole Wheat Rotis",
+        "Jeera Rice"
+      ],
+      "dietaryTags": [
+        "High Protein"
+      ],
+      "calories": 540
+    },
+    {
+      "id": "meal-005",
+      "name": "Dal Makhani & Jeera Rice Bowl Combo",
+      "category": "Combo Meals",
+      "mealType": "veg",
+      "description": "Slow-simmered black lentils finished with cream and butter, paired with fragrant jeera basmati rice, 2 butter chapatis, and pickled onions.",
+      "price": 165,
+      "isAvailable": true,
+      "isFeatured": true,
+      "ingredients": [
+        "Black Urad Dal",
+        "Amul Butter",
+        "Jeera Basmati Rice",
+        "2 Phulkas"
+      ],
+      "dietaryTags": [
+        "Classic Punjabi Homestyle"
+      ],
+      "calories": 590
+    },
+    {
+      "id": "meal-006",
+      "name": "Methi Paneer Bhurji Meal",
+      "category": "Paneer Meals",
+      "mealType": "veg",
+      "description": "Crumbled cottage cheese sautéed with fresh fenugreek leaves, green chillies, and ginger. Served with 3 multigrain rotis, dal fry, and steamed rice.",
+      "price": 175,
+      "isAvailable": true,
+      "isFeatured": false,
+      "ingredients": [
+        "Fresh Paneer",
+        "Fresh Methi",
+        "Multigrain Atta",
+        "Toor Dal"
+      ],
+      "dietaryTags": [
+        "Diabetic Friendly",
+        "Iron Rich"
+      ],
+      "calories": 510
+    },
+    {
+      "id": "meal-007",
+      "name": "Butter Chicken Homestyle Dabba",
+      "category": "Chicken Meals",
+      "mealType": "non-veg",
+      "description": "Boneless tender chicken tikka in a mildly sweet and tangy velvet tomato-cream gravy, served with 3 soft rotis, pulao rice, and mint chutney.",
+      "price": 225,
+      "isAvailable": true,
+      "isFeatured": false,
+      "ingredients": [
+        "Boneless Chicken",
+        "Fresh Tomato Puree",
+        "Cream",
+        "Spiced Pulao"
+      ],
+      "dietaryTags": [
+        "Chef Special"
+      ],
+      "calories": 720
+    },
+    {
+      "id": "meal-008",
+      "name": "Kokum Solkadhi (250ml)",
+      "category": "Add-ons & Sweets",
+      "mealType": "veg",
+      "description": "Traditional refreshing Konkani digestive drink made with fresh coconut milk, wild kokum extract, garlic, and fresh green coriander.",
+      "price": 45,
+      "isAvailable": true,
+      "isFeatured": false,
+      "ingredients": [
+        "Fresh Coconut Milk",
+        "Agallochum Kokum",
+        "Garlic",
+        "Himalayan Pink Salt"
+      ],
+      "dietaryTags": [
+        "Digestive Booster",
+        "Cooling"
+      ],
+      "calories": 85
+    },
+    {
+      "id": "meal-009",
+      "name": "Tawa Phulka Pack (Set of 4)",
+      "category": "Add-ons & Sweets",
+      "mealType": "veg",
+      "description": "Hot puffed 100% whole wheat chapatis brushed with pure desi ghee.",
+      "price": 40,
+      "isAvailable": true,
+      "isFeatured": false,
+      "ingredients": [
+        "100% MP Sharbati Wheat",
+        "Desi Ghee"
+      ],
+      "calories": 280
+    },
+    {
+      "id": "meal-010",
+      "name": "Angoori Gulab Jamun (2 pcs)",
+      "category": "Add-ons & Sweets",
+      "mealType": "veg",
+      "description": "Melt-in-the-mouth mawa dumplings soaked in cardamom and saffron-infused sugar syrup.",
+      "price": 50,
+      "isAvailable": true,
+      "isFeatured": false,
+      "ingredients": [
+        "Pure Khoya Mawa",
+        "Cardamom",
+        "Kesar Saffron"
+      ],
+      "calories": 220
+    }
+  ],
+  "subscriptionPlans": [
+    {
+      "id": "plan-monthly-30",
+      "name": "30-Meal Monthly Executive Tiffin",
+      "planType": "monthly",
+      "mealType": "both",
+      "mealsCount": 30,
+      "basePrice": 4200,
+      "discountPercentage": 15,
+      "deliveryFrequency": "daily_lunch",
+      "description": "Best value 30-day continuous homestyle tiffin. Choose Veg, Non-Veg, or alternating days. Free pause & resume up to 7 days.",
+      "features": [
+        "30 Freshly Cooked Homestyle Meals",
+        "Choose Lunch or Dinner delivery slot",
+        "Daily variety menu (no repeated sabzis)",
+        "Flexible 7-day pause anytime via app",
+        "Zero delivery charge on all 30 drops",
+        "Free Solkadhi or Sweet twice a week"
+      ],
+      "isPopular": true
+    },
+    {
+      "id": "plan-monthly-veg-30",
+      "name": "30-Meal Monthly Pure Veg Plan",
+      "planType": "monthly",
+      "mealType": "veg",
+      "mealsCount": 30,
+      "basePrice": 3900,
+      "discountPercentage": 15,
+      "deliveryFrequency": "daily_lunch",
+      "description": "Wholesome, pure vegetarian tiffins tailored for working professionals and students with balanced nutrition and home-ground spices.",
+      "features": [
+        "30 Pure Vegetarian Homestyle Meals",
+        "Fresh Paneer dishes twice every week",
+        "Phulkas with Desi Ghee & low oil cooking",
+        "Easy pause / date adjustment",
+        "Priority delivery directly to your desk or home"
+      ],
+      "isPopular": false
+    },
+    {
+      "id": "plan-weekly-6",
+      "name": "6-Meal Weekly Starter Plan",
+      "planType": "weekly",
+      "mealType": "both",
+      "mealsCount": 6,
+      "basePrice": 870,
+      "discountPercentage": 8,
+      "deliveryFrequency": "weekdays_only",
+      "description": "Monday to Saturday lunch or dinner delivery. Ideal for testing our food quality and taste before committing to a monthly plan.",
+      "features": [
+        "6 Fresh Hot Tiffins (Mon-Sat)",
+        "Option to toggle Veg or Non-Veg",
+        "No cooking hassle on busy workdays",
+        "Doorstep delivery between 12:30 - 2:00 PM"
+      ],
+      "isPopular": false
+    },
+    {
+      "id": "plan-daily-combo",
+      "name": "Single Homestyle Dabba (Daily)",
+      "planType": "daily",
+      "mealType": "both",
+      "mealsCount": 1,
+      "basePrice": 150,
+      "discountPercentage": 0,
+      "deliveryFrequency": "daily_lunch",
+      "description": "Order as needed with zero subscription commitment. Choose any thali from today’s fresh daily kitchen board.",
+      "features": [
+        "Instant same-day delivery",
+        "Packed in food-grade spillproof containers",
+        "Complete meal with Rotis, Dal, Sabzi & Rice"
+      ],
+      "isPopular": false
+    }
+  ],
+  "longTermOffers": [
+    {
+      "id": "lt-plan-90",
+      "name": "90 Meals Plan",
+      "mealsCount": 90,
+      "mealType": "veg",
+      "basePrice": 11077,
+      "cashbackAmount": 500,
+      "effectiveValue": 10577,
+      "maxPauseDays": 15,
+      "maxValidityMonths": 4.5,
+      "maxValidityText": "Up to 4.5 months",
+      "description": "Quarterly pure-veg homestyle tiffin with guaranteed ₹500 cashback & 15 days travel pause freedom.",
+      "features": [
+        "90 Wholesome Pure Veg Homestyle Meals",
+        "Flat ₹500 Guaranteed Cashback Credited",
+        "Effective Value: ₹10,577 (Standard Rate: ₹123.08/meal)",
+        "15 Days Maximum Pause Allowance",
+        "Extended Validity Up to 4.5 Months",
+        "Zero Delivery Charge across Pune delivery zones",
+        "Fresh Sharbati Wheat Desi Ghee Phulkas Daily",
+        "Full Early Cancellation Protection (Zero Negative Balance)"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "lt-plan-180",
+      "name": "180 Meals Plan",
+      "mealsCount": 180,
+      "mealType": "veg",
+      "basePrice": 22154,
+      "cashbackAmount": 1500,
+      "effectiveValue": 20654,
+      "maxPauseDays": 30,
+      "maxValidityMonths": 8.5,
+      "maxValidityText": "Up to 8.5 months",
+      "description": "Half-yearly comprehensive homestyle tiffin commitment with ₹1,500 guaranteed cashback & 30 days travel pause.",
+      "features": [
+        "180 Nutritious Pure Veg Homestyle Meals",
+        "Flat ₹1,500 Guaranteed Cashback Credited",
+        "Effective Value: ₹20,654 (Standard Rate: ₹123.08/meal)",
+        "30 Days Maximum Pause Allowance",
+        "Extended Validity Up to 8.5 Months",
+        "Priority Dispatch Window for Lunch or Dinner",
+        "Free Digestive Kokum Solkadhi Weekly",
+        "Full Early Cancellation Protection (Zero Negative Balance)"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "lt-plan-270",
+      "name": "270 Meals Plan",
+      "mealsCount": 270,
+      "mealType": "veg",
+      "basePrice": 33231,
+      "cashbackAmount": 3000,
+      "effectiveValue": 30231,
+      "maxPauseDays": 45,
+      "maxValidityMonths": 13,
+      "maxValidityText": "Up to 13 months",
+      "description": "9-Month academic & corporate tiffin package. Maximum savings with ₹3,000 cashback & 45 days pause allowance.",
+      "features": [
+        "270 Healthy Homestyle Pure Veg Meals",
+        "Flat ₹3,000 Guaranteed Cashback Credited",
+        "Effective Value: ₹30,231 (Standard Rate: ₹123.08/meal)",
+        "45 Days Maximum Pause Allowance",
+        "Extended Validity Up to 13 Months",
+        "Ideal for College Semesters & Project Stints",
+        "Weekend Pause & Resume with Single Tap",
+        "Full Early Cancellation Protection (Zero Negative Balance)"
+      ],
+      "isActive": true
+    },
+    {
+      "id": "lt-plan-360",
+      "name": "360 Meals Plan",
+      "mealsCount": 360,
+      "mealType": "veg",
+      "basePrice": 44308,
+      "cashbackAmount": 5000,
+      "effectiveValue": 39308,
+      "maxPauseDays": 60,
+      "maxValidityMonths": 16,
+      "maxValidityText": "Up to 16 months",
+      "description": "Annual VIP tiffin subscription. Ultimate value with ₹5,000 direct cashback & 60 days of pause freedom.",
+      "features": [
+        "360 Complete Homestyle Veg Thalis",
+        "Flat ₹5,000 Maximum Cashback Credited",
+        "Effective Value: ₹39,308 (Standard Rate: ₹123.08/meal)",
+        "60 Days Maximum Pause Allowance",
+        "Extended Validity Up to 16 Months",
+        "Dedicated Pune Kitchen Concierge Support",
+        "Includes Festive Sweets & Holiday Dabba Treats",
+        "Full Early Cancellation Protection (Zero Negative Balance)"
+      ],
+      "isActive": true
+    }
+  ],
+  "customerPauses": [
+    {
+      "id": "pause-001",
+      "subscriptionId": "sub-lt-001",
+      "subscriptionNumber": "SUB-LT-9001",
+      "customerId": "usr-cust-01",
+      "customerName": "Aditya Deshmukh",
+      "customerPhone": "+919890123456",
+      "planName": "90 Meals Plan",
+      "mealsCount": 90,
+      "subscriptionStartDate": "2026-09-01",
+      "originalEndDate": "2026-12-15",
+      "extendedEndDate": "2026-12-23",
+      "totalAllowedPauseDays": 15,
+      "pauseStartDate": "2026-09-28",
+      "pauseEndDate": "2026-10-05",
+      "daysPaused": 8,
+      "totalPauseDaysUsed": 8,
+      "remainingPauseDays": 7,
+      "status": "active",
+      "noticeCompliance": "on_time",
+      "noticeRecordedAt": "2026-09-27T18:20:00.000Z",
+      "notes": "Travelling to Bangalore for corporate conference. Automatic validity extension of 8 days applied.",
+      "approvedBy": "Manna Foods Admin",
+      "createdAt": "2026-09-27T18:22:00.000Z",
+      "updatedAt": "2026-09-27T18:22:00.000Z"
+    },
+    {
+      "id": "pause-002",
+      "subscriptionId": "sub-lt-002",
+      "subscriptionNumber": "SUB-LT-1801",
+      "customerId": "usr-cust-02",
+      "customerName": "Pooja Kulkarni",
+      "customerPhone": "+919765432109",
+      "planName": "180 Meals Plan",
+      "mealsCount": 180,
+      "subscriptionStartDate": "2026-08-01",
+      "originalEndDate": "2027-02-15",
+      "extendedEndDate": "2027-02-26",
+      "totalAllowedPauseDays": 30,
+      "pauseStartDate": "2026-09-10",
+      "pauseEndDate": "2026-09-20",
+      "daysPaused": 11,
+      "totalPauseDaysUsed": 11,
+      "remainingPauseDays": 19,
+      "status": "completed",
+      "noticeCompliance": "on_time",
+      "noticeRecordedAt": "2026-09-09T19:10:00.000Z",
+      "notes": "Family trip to Mahabaleshwar. Successfully resumed on Sept 21 as scheduled.",
+      "approvedBy": "Manna Foods Admin",
+      "createdAt": "2026-09-09T19:15:00.000Z",
+      "updatedAt": "2026-09-20T23:59:00.000Z"
+    },
+    {
+      "id": "pause-003",
+      "subscriptionId": "sub-lt-003",
+      "subscriptionNumber": "SUB-LT-9002",
+      "customerId": "usr-cust-03",
+      "customerName": "Rohan Shinde",
+      "customerPhone": "+919822334455",
+      "planName": "90 Meals Plan",
+      "mealsCount": 90,
+      "subscriptionStartDate": "2026-08-15",
+      "originalEndDate": "2026-11-28",
+      "extendedEndDate": "2026-12-08",
+      "totalAllowedPauseDays": 15,
+      "pauseStartDate": "2026-10-02",
+      "pauseEndDate": "2026-10-15",
+      "daysPaused": 14,
+      "totalPauseDaysUsed": 10,
+      "remainingPauseDays": 5,
+      "status": "exceeded_limit",
+      "noticeCompliance": "late",
+      "noticeRecordedAt": "2026-10-01T22:45:00.000Z",
+      "notes": "ALERT: Customer requested 14 days leave when only 5 pause days remain. Submitted after 8:00 PM cutoff. Requires special approval.",
+      "approvedBy": "Pending Admin Review",
+      "createdAt": "2026-10-01T22:45:00.000Z",
+      "updatedAt": "2026-10-01T22:45:00.000Z"
+    }
+  ],
+  "coupons": [
+    {
+      "id": "cpn-001",
+      "code": "FIRSTMONTH",
+      "name": "New Subscriber Welcome",
+      "description": "Special 10% instant discount on any monthly tiffin subscription",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "minOrderValue": 2500,
+      "maxDiscount": 400,
+      "startDate": "2026-01-01",
+      "expiryDate": "2026-12-31",
+      "usageLimit": 500,
+      "usedCount": 28,
+      "perCustomerLimit": 1,
+      "isActive": true,
+      "applicableFor": "subscriptions",
+      "applicablePlans": [
+        "plan-monthly-30",
+        "plan-monthly-veg-30"
+      ]
+    },
+    {
+      "id": "cpn-002",
+      "code": "MANNA100",
+      "name": "Flat ₹100 Subscription Discount",
+      "description": "Flat ₹100 discount on your tiffin plan renewal or new booking",
+      "discountType": "fixed",
+      "discountValue": 100,
+      "minOrderValue": 750,
+      "maxDiscount": 100,
+      "startDate": "2026-01-01",
+      "expiryDate": "2026-12-31",
+      "usageLimit": 1000,
+      "usedCount": 64,
+      "perCustomerLimit": 2,
+      "isActive": true,
+      "applicableFor": "subscriptions"
+    },
+    {
+      "id": "cpn-003",
+      "code": "PUNETIFFIN",
+      "name": "Pune Foodie Special",
+      "description": "Flat ₹50 OFF on daily meal orders above ₹250",
+      "discountType": "fixed",
+      "discountValue": 50,
+      "minOrderValue": 250,
+      "maxDiscount": 50,
+      "startDate": "2026-01-01",
+      "expiryDate": "2026-12-31",
+      "usageLimit": 300,
+      "usedCount": 42,
+      "perCustomerLimit": 3,
+      "isActive": true,
+      "applicableFor": "meals"
+    },
+    {
+      "id": "cpn-004",
+      "code": "HOMELY20",
+      "name": "Healthy Homestyle 20% OFF",
+      "description": "20% OFF on all meal orders up to ₹100 discount",
+      "discountType": "percentage",
+      "discountValue": 20,
+      "minOrderValue": 200,
+      "maxDiscount": 100,
+      "startDate": "2026-01-01",
+      "expiryDate": "2026-12-31",
+      "usageLimit": 200,
+      "usedCount": 15,
+      "perCustomerLimit": 1,
+      "isActive": true,
+      "applicableFor": "all"
+    }
+  ],
+  "couponUsage": [
+    {
+      "id": "use-001",
+      "couponId": "cpn-003",
+      "couponCode": "PUNETIFFIN",
+      "customerId": "usr-cust-01",
+      "orderId": "ord-1001",
+      "discountAmount": 50,
+      "usedAt": "2026-09-28T10:15:00.000Z"
+    },
+    {
+      "id": "use-002",
+      "couponId": "cpn-001",
+      "couponCode": "FIRSTMONTH",
+      "customerId": "usr-cust-02",
+      "orderId": "ord-1002",
+      "discountAmount": 357,
+      "usedAt": "2026-09-29T14:30:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1790870953029-vp6",
+      "orderNumber": "MF7614",
+      "customerId": "usr-cust-01",
+      "customerName": "Aditya Deshmukh",
+      "customerPhone": "+919890123456",
+      "customerEmail": "aditya.deshmukh@gmail.com",
+      "items": [
+        {
+          "id": "line-1790870952789-icm",
+          "type": "subscription",
+          "name": "90 Meals Plan (Long-Term Cashback Offer)",
+          "mealType": "veg",
+          "unitPrice": 9100,
+          "quantity": 1,
+          "totalPrice": 9100,
+          "details": "90 meals long-term plan (15 max pause days, ₹1400 cashback)"
+        }
+      ],
+      "subtotal": 9100,
+      "couponDiscount": 0,
+      "subscriptionDiscount": 1400,
+      "deliveryFee": 0,
+      "totalAmount": 9100,
+      "paymentMethod": "razorpay",
+      "paymentStatus": "paid",
+      "razorpayOrderId": "order_TihkdZg5XPmrIc",
+      "orderStatus": "confirmed",
+      "deliveryAddress": {
+        "addressLine": "Flat 402, Rohan Tarang, Wakad",
+        "area": "Wakad",
+        "city": "Pune",
+        "pincode": "411057",
+        "name": "Aditya Deshmukh",
+        "phone": "+919890123456",
+        "email": "aditya.deshmukh@gmail.com"
+      },
+      "deliveryDate": "2026-10-01",
+      "deliverySlot": "12:30 PM - 02:00 PM",
+      "createdAt": "2026-10-01T16:09:13.029Z",
+      "updatedAt": "2026-10-01T16:09:23.970Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2026-10-01T16:09:13.029Z",
+          "note": "Order checkout initiated"
+        },
+        {
+          "status": "confirmed",
+          "timestamp": "2026-10-01T16:09:23.970Z",
+          "note": "Payment verified via Razorpay ID: pay_1790870962938_6yny"
+        }
+      ],
+      "razorpayPaymentId": "pay_1790870962938_6yny"
+    },
+    {
+      "id": "ord-1001",
+      "orderNumber": "MF1001",
+      "customerId": "usr-cust-01",
+      "customerName": "Aditya Deshmukh",
+      "customerPhone": "+919890123456",
+      "customerEmail": "aditya.deshmukh@gmail.com",
+      "items": [
+        {
+          "id": "item-01",
+          "type": "meal",
+          "name": "Royal Shahi Paneer Thali",
+          "mealType": "veg",
+          "unitPrice": 185,
+          "quantity": 2,
+          "totalPrice": 370
+        },
+        {
+          "id": "item-02",
+          "type": "meal",
+          "name": "Kokum Solkadhi (250ml)",
+          "mealType": "veg",
+          "unitPrice": 45,
+          "quantity": 2,
+          "totalPrice": 90
+        }
+      ],
+      "subtotal": 460,
+      "couponCode": "PUNETIFFIN",
+      "couponDiscount": 50,
+      "subscriptionDiscount": 0,
+      "deliveryFee": 0,
+      "totalAmount": 410,
+      "paymentMethod": "razorpay",
+      "paymentStatus": "paid",
+      "razorpayOrderId": "order_MF1001_rzp",
+      "razorpayPaymentId": "pay_MF1001_chk",
+      "orderStatus": "delivered",
+      "deliveryAddress": {
+        "addressLine": "Flat 402, Rohan Tarang",
+        "landmark": "Near Datta Mandir",
+        "area": "Wakad",
+        "city": "Pune",
+        "pincode": "411057"
+      },
+      "deliveryDate": "2026-09-28",
+      "deliverySlot": "12:30 PM - 02:00 PM",
+      "notes": "Please ring bell twice",
+      "createdAt": "2026-09-28T10:15:00.000Z",
+      "updatedAt": "2026-09-28T13:45:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2026-09-28T10:15:00.000Z",
+          "note": "Order placed"
+        },
+        {
+          "status": "confirmed",
+          "timestamp": "2026-09-28T10:17:00.000Z",
+          "note": "Payment verified via Razorpay"
+        },
+        {
+          "status": "preparing",
+          "timestamp": "2026-09-28T11:30:00.000Z",
+          "note": "Kitchen started preparation"
+        },
+        {
+          "status": "out_for_delivery",
+          "timestamp": "2026-09-28T12:45:00.000Z",
+          "note": "Assigned to delivery agent"
+        },
+        {
+          "status": "delivered",
+          "timestamp": "2026-09-28T13:45:00.000Z",
+          "note": "Handed over to customer"
+        }
+      ]
+    },
+    {
+      "id": "ord-1002",
+      "orderNumber": "MF1002",
+      "customerId": "usr-cust-02",
+      "customerName": "Pooja Kulkarni",
+      "customerPhone": "+919765432109",
+      "customerEmail": "pooja.kulkarni@techpune.com",
+      "items": [
+        {
+          "id": "item-03",
+          "type": "subscription",
+          "name": "30-Meal Monthly Executive Tiffin",
+          "mealType": "both",
+          "unitPrice": 3570,
+          "quantity": 1,
+          "totalPrice": 3570,
+          "details": "Starts 2026-10-01, Lunch delivery"
+        }
+      ],
+      "subtotal": 3570,
+      "couponCode": "FIRSTMONTH",
+      "couponDiscount": 357,
+      "subscriptionDiscount": 630,
+      "deliveryFee": 0,
+      "totalAmount": 3213,
+      "paymentMethod": "razorpay",
+      "paymentStatus": "paid",
+      "razorpayOrderId": "order_MF1002_rzp",
+      "razorpayPaymentId": "pay_MF1002_chk",
+      "orderStatus": "confirmed",
+      "deliveryAddress": {
+        "addressLine": "Tower 5, Flat 1102, Blue Ridge",
+        "landmark": "Opposite Cognizant",
+        "area": "Hinjawadi Phase 1 & 2",
+        "city": "Pune",
+        "pincode": "411057"
+      },
+      "deliveryDate": "2026-10-01",
+      "deliverySlot": "12:30 PM - 02:00 PM",
+      "notes": "Leave at security reception if not reachable",
+      "createdAt": "2026-09-29T14:30:00.000Z",
+      "updatedAt": "2026-09-29T14:32:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2026-09-29T14:30:00.000Z",
+          "note": "Order created"
+        },
+        {
+          "status": "confirmed",
+          "timestamp": "2026-09-29T14:32:00.000Z",
+          "note": "Monthly subscription activated"
+        }
+      ]
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "sub-1790870963970",
+      "subscriptionNumber": "SUB-LT-9826",
+      "customerId": "usr-cust-01",
+      "customerName": "Aditya Deshmukh",
+      "customerPhone": "+919890123456",
+      "planId": "lt-plan-90",
+      "planName": "90 Meals Plan",
+      "mealType": "veg",
+      "mealsTotal": 90,
+      "mealsUsed": 0,
+      "mealsRemaining": 90,
+      "planCompletionPercentage": 0,
+      "startDate": "2026-10-01",
+      "endDate": "2027-02-13",
+      "originalEndDate": "2027-02-13",
+      "extendedEndDate": "2027-02-13",
+      "deliveryFrequency": "daily_lunch",
+      "deliverySlot": "12:30 PM - 02:00 PM",
+      "deliveryAddress": {
+        "addressLine": "Flat 402, Rohan Tarang, Wakad",
+        "area": "Wakad",
+        "city": "Pune",
+        "pincode": "411057",
+        "name": "Aditya Deshmukh",
+        "phone": "+919890123456",
+        "email": "aditya.deshmukh@gmail.com"
+      },
+      "basePrice": 10500,
+      "cashbackAmount": 1400,
+      "effectiveValue": 9100,
+      "finalPaid": 9100,
+      "paymentStatus": "paid",
+      "status": "active",
+      "isLongTerm": true,
+      "totalAllowedPauseDays": 15,
+      "totalPauseDaysUsed": 0,
+      "remainingPauseDays": 15,
+      "currentPauseStatus": "none",
+      "orderId": "ord-1790870953029-vp6",
+      "createdAt": "2026-10-01T16:09:23.970Z",
+      "updatedAt": "2026-10-01T16:09:23.970Z"
+    },
+    {
+      "id": "sub-lt-001",
+      "subscriptionNumber": "SUB-LT-9001",
+      "customerId": "usr-cust-01",
+      "customerName": "Aditya Deshmukh",
+      "customerPhone": "+919890123456",
+      "planId": "lt-plan-90",
+      "planName": "90 Meals Plan",
+      "mealType": "veg",
+      "mealsTotal": 90,
+      "mealsUsed": 24,
+      "mealsRemaining": 66,
+      "planCompletionPercentage": 26.7,
+      "startDate": "2026-09-01",
+      "endDate": "2026-12-23",
+      "originalEndDate": "2026-12-15",
+      "extendedEndDate": "2026-12-23",
+      "deliveryFrequency": "daily_lunch",
+      "deliverySlot": "12:30 PM - 02:00 PM",
+      "deliveryAddress": {
+        "addressLine": "Flat 402, Rohan Tarang, Wakad",
+        "landmark": "Near Datta Mandir",
+        "area": "Wakad",
+        "city": "Pune",
+        "pincode": "411057"
+      },
+      "basePrice": 10500,
+      "cashbackAmount": 1400,
+      "effectiveValue": 9100,
+      "finalPaid": 10500,
+      "paymentStatus": "paid",
+      "status": "active",
+      "isLongTerm": true,
+      "totalAllowedPauseDays": 15,
+      "totalPauseDaysUsed": 8,
+      "remainingPauseDays": 7,
+      "currentPauseStatus": "active",
+      "orderId": "ord-lt-101",
+      "createdAt": "2026-09-01T09:00:00.000Z",
+      "updatedAt": "2026-09-27T18:22:00.000Z"
+    },
+    {
+      "id": "sub-lt-002",
+      "subscriptionNumber": "SUB-LT-1801",
+      "customerId": "usr-cust-02",
+      "customerName": "Pooja Kulkarni",
+      "customerPhone": "+919765432109",
+      "planId": "lt-plan-180",
+      "planName": "180 Meals Plan",
+      "mealType": "veg",
+      "mealsTotal": 180,
+      "mealsUsed": 52,
+      "mealsRemaining": 128,
+      "planCompletionPercentage": 28.9,
+      "startDate": "2026-08-01",
+      "endDate": "2027-02-26",
+      "originalEndDate": "2027-02-15",
+      "extendedEndDate": "2027-02-26",
+      "deliveryFrequency": "daily_lunch",
+      "deliverySlot": "12:30 PM - 02:00 PM",
+      "deliveryAddress": {
+        "addressLine": "Tower 5, Flat 1102, Blue Ridge",
+        "landmark": "Opposite Cognizant",
+        "area": "Hinjawadi Phase 1 & 2",
+        "city": "Pune",
+        "pincode": "411057"
+      },
+      "basePrice": 21000,
+      "cashbackAmount": 3000,
+      "effectiveValue": 18000,
+      "finalPaid": 21000,
+      "paymentStatus": "paid",
+      "status": "active",
+      "isLongTerm": true,
+      "totalAllowedPauseDays": 30,
+      "totalPauseDaysUsed": 11,
+      "remainingPauseDays": 19,
+      "currentPauseStatus": "completed",
+      "orderId": "ord-lt-102",
+      "createdAt": "2026-08-01T10:00:00.000Z",
+      "updatedAt": "2026-09-21T08:00:00.000Z"
+    },
+    {
+      "id": "sub-lt-003",
+      "subscriptionNumber": "SUB-LT-9002",
+      "customerId": "usr-cust-03",
+      "customerName": "Rohan Shinde",
+      "customerPhone": "+919822334455",
+      "planId": "lt-plan-90",
+      "planName": "90 Meals Plan",
+      "mealType": "veg",
+      "mealsTotal": 90,
+      "mealsUsed": 18,
+      "mealsRemaining": 72,
+      "planCompletionPercentage": 20,
+      "startDate": "2026-08-15",
+      "endDate": "2026-12-08",
+      "originalEndDate": "2026-11-28",
+      "extendedEndDate": "2026-12-08",
+      "deliveryFrequency": "daily_dinner",
+      "deliverySlot": "07:30 PM - 09:00 PM",
+      "deliveryAddress": {
+        "addressLine": "B2 Ganga Florentina, NIBM Post Road",
+        "landmark": "Near Dorabjee Mall",
+        "area": "NIBM",
+        "city": "Pune",
+        "pincode": "411048"
+      },
+      "basePrice": 10500,
+      "cashbackAmount": 1400,
+      "effectiveValue": 9100,
+      "finalPaid": 10500,
+      "paymentStatus": "paid",
+      "status": "active",
+      "isLongTerm": true,
+      "totalAllowedPauseDays": 15,
+      "totalPauseDaysUsed": 10,
+      "remainingPauseDays": 5,
+      "currentPauseStatus": "exceeded_limit",
+      "orderId": "ord-lt-103",
+      "createdAt": "2026-08-15T11:00:00.000Z",
+      "updatedAt": "2026-10-01T22:45:00.000Z"
+    },
+    {
+      "id": "sub-lt-004",
+      "subscriptionNumber": "SUB-LT-3601",
+      "customerId": "usr-cust-04",
+      "customerName": "Sneha Patil",
+      "customerPhone": "+919833445566",
+      "planId": "lt-plan-360",
+      "planName": "360 Meals Plan",
+      "mealType": "veg",
+      "mealsTotal": 360,
+      "mealsUsed": 15,
+      "mealsRemaining": 345,
+      "planCompletionPercentage": 4.2,
+      "startDate": "2026-09-15",
+      "endDate": "2027-10-15",
+      "originalEndDate": "2027-10-15",
+      "extendedEndDate": "2027-10-15",
+      "deliveryFrequency": "both_meals",
+      "deliverySlot": "12:30 PM - 02:00 PM",
+      "deliveryAddress": {
+        "addressLine": "Rowhouse 12, Nyati Estate, Undri",
+        "landmark": "Near Bishop School",
+        "area": "Undri",
+        "city": "Pune",
+        "pincode": "411060"
+      },
+      "basePrice": 42000,
+      "cashbackAmount": 6000,
+      "effectiveValue": 36000,
+      "finalPaid": 42000,
+      "paymentStatus": "paid",
+      "status": "active",
+      "isLongTerm": true,
+      "totalAllowedPauseDays": 60,
+      "totalPauseDaysUsed": 0,
+      "remainingPauseDays": 60,
+      "currentPauseStatus": "none",
+      "orderId": "ord-lt-104",
+      "createdAt": "2026-09-15T12:00:00.000Z",
+      "updatedAt": "2026-09-15T12:00:00.000Z"
+    },
+    {
+      "id": "sub-001",
+      "subscriptionNumber": "SUB-MF-2001",
+      "customerId": "usr-cust-02",
+      "customerName": "Pooja Kulkarni",
+      "customerPhone": "+919765432109",
+      "planId": "plan-monthly-30",
+      "planName": "30-Meal Monthly Executive Tiffin",
+      "mealType": "both",
+      "mealsTotal": 30,
+      "mealsUsed": 4,
+      "mealsRemaining": 26,
+      "planCompletionPercentage": 13.3,
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "deliveryFrequency": "daily_lunch",
+      "deliverySlot": "12:30 PM - 02:00 PM",
+      "deliveryAddress": {
+        "addressLine": "Tower 5, Flat 1102, Blue Ridge",
+        "landmark": "Opposite Cognizant",
+        "area": "Hinjawadi Phase 1 & 2",
+        "city": "Pune",
+        "pincode": "411057"
+      },
+      "basePrice": 4200,
+      "finalPaid": 3213,
+      "paymentStatus": "paid",
+      "status": "active",
+      "orderId": "ord-1002",
+      "createdAt": "2026-09-29T14:32:00.000Z",
+      "updatedAt": "2026-09-29T14:32:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1790870963977-8q6y",
+      "orderId": "ord-1790870953029-vp6",
+      "customerName": "Aditya Deshmukh",
+      "phone": "+919890123456",
+      "message": "New Manna Foods Order\n\nOrder ID: #MF7614\nCustomer: Aditya Deshmukh\nPlan/Items: 90 Meals Plan (Long-Term Cashback Offer) (1 plan - 90 meals long-term plan (15 max pause days, ₹1400 cashback))\nAmount: ₹9100\nPayment: Paid\nDelivery Address: Flat 402, Rohan Tarang, Wakad, Wakad, Pune - 411057\nOrder Date: 1 Oct 2026\n\nThank you for ordering from Manna Foods.",
+      "status": "simulated",
+      "type": "order_confirmed",
+      "sentAt": "2026-10-01T16:09:23.977Z"
+    },
+    {
+      "id": "notif-001",
+      "orderId": "ord-1001",
+      "customerName": "Aditya Deshmukh",
+      "phone": "+919890123456",
+      "message": "New Manna Foods Order\n\nOrder ID: #MF1001\nCustomer: Aditya Deshmukh\nPlan/Items: Royal Shahi Paneer Thali x 2, Kokum Solkadhi x 2\nAmount: ₹410\nPayment: Paid\nDelivery Address: Flat 402, Rohan Tarang, Wakad, Pune\n\nThank you for ordering from Manna Foods.",
+      "status": "sent",
+      "type": "order_confirmed",
+      "sentAt": "2026-09-28T10:17:05.000Z"
+    },
+    {
+      "id": "notif-002",
+      "orderId": "ord-1002",
+      "customerName": "Pooja Kulkarni",
+      "phone": "+919765432109",
+      "message": "New Manna Foods Order\n\nOrder ID: #MF1002\nCustomer: Pooja Kulkarni\nPlan/Items: 30-Meal Monthly Executive Tiffin (30 Meals)\nAmount: ₹3213\nPayment: Paid\nDelivery Address: Tower 5, Flat 1102, Blue Ridge, Hinjawadi Phase 1 & 2, Pune\n\nThank you for ordering from Manna Foods.",
+      "status": "sent",
+      "type": "order_confirmed",
+      "sentAt": "2026-09-29T14:32:10.000Z"
+    }
+  ],
+  "settings": {
+    "businessName": "Manna Foods",
+    "tagline": "Homemade • Healthy • Hygienic • Delicious • Affordable",
+    "contactNumber": "+91 9890786024",
+    "whatsappNumber": "+91 9890786024",
+    "email": "orders@mannafoods.in",
+    "address": "A3 Saket Building, Kondhwa Katraj Road, Kondhwa Bk, Pune 411048",
+    "deliveryCharge": 30,
+    "freeDeliveryThreshold": 399,
+    "minOrderValue": 120,
+    "deliveryAreas": [
+      "Kondhwa",
+      "Kondhwa Bk",
+      "NIBM",
+      "Salunke Vihar",
+      "Mohammad Wadi Road",
+      "Pisoli",
+      "Kad Nagar",
+      "Wadachi Wadi",
+      "Undri",
+      "Yewalewadi",
+      "Tilekar Nagar",
+      "Sukhsagar Nagar",
+      "VIT Collage Kondhwa"
+    ],
+    "orderTimings": {
+      "lunchBookingCutoff": "10:00 AM",
+      "dinnerBookingCutoff": "05:00 PM",
+      "lunchDeliveryWindow": "12:30 PM - 02:00 PM",
+      "dinnerDeliveryWindow": "07:30 PM - 09:00 PM"
+    },
+    "razorpayKeyId": "rzp_test_Thy8u8Nd4qpwVC",
+    "whatsappConfigured": false
+  }
+}

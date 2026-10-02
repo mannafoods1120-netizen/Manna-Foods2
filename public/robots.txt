@@ -1,0 +1,16 @@
+# Robots.txt for Manna Foods Pune (Homemade Tiffin Delivery Service)
+User-agent: *
+Allow: /
+Allow: /menu
+Allow: /plans
+Allow: /offers
+Allow: /privacy
+Allow: /terms
+
+# Disallow administrative and checkout internal paths
+Disallow: /admin
+Disallow: /api/admin/
+Disallow: /api/checkout/
+
+# Host and Sitemap
+Sitemap: https://ais-dev-6q5uxwvsberaw6k3pm465g-144839403765.asia-southeast1.run.app/sitemap.xml

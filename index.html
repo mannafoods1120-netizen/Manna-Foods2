@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // Suppress Vite HMR WebSocket connection failure in AI Studio preview iframe
+      window.addEventListener('unhandledrejection', function(event) {
+        var reason = event.reason;
+        var msg = reason ? (reason.message || String(reason)) : '';
+        if (typeof msg === 'string' && (msg.includes('WebSocket') || msg.includes('websocket') || msg.includes('vite'))) {
+          event.stopImmediatePropagation();
+          event.preventDefault();
+        }
+      }, true);
+      window.addEventListener('error', function(event) {
+        var msg = event.message || '';
+        if (typeof msg === 'string' && (msg.includes('WebSocket') || msg.includes('websocket') || msg.includes('vite'))) {
+          event.stopImmediatePropagation();
+          event.preventDefault();
+        }
+      }, true);
+    </script>
+    <title>Manna Foods - Homemade Tiffin Service &amp; Admin Suite</title>
+    <meta name="description" content="Production-ready homemade food and tiffin delivery web application for Manna Foods Pune with dynamic menu, subscriptions, cart, Razorpay payments, WhatsApp notifications, and comprehensive Admin Panel." />
+    <meta property="og:title" content="Manna Foods - Homemade Tiffin Service &amp; Admin Suite" />
+    <meta property="og:description" content="Production-ready homemade food and tiffin delivery web application for Manna Foods Pune with dynamic menu, subscriptions, cart, Razorpay payments, WhatsApp notifications, and comprehensive Admin Panel." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Outfit:wght@500;600;700;800&family=Permanent+Marker&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

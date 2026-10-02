@@ -1,0 +1,8 @@
+{
+  "name": "Manna Foods - Homemade Tiffin Service & Admin Suite",
+  "description": "Production-ready homemade food and tiffin delivery web application for Manna Foods Pune with dynamic menu, subscriptions, cart, Razorpay payments, WhatsApp notifications, and comprehensive Admin Panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
